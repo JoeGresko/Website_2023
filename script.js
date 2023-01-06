@@ -1,5 +1,6 @@
-console.log('Hey there')
-
+setTimeout(function (){
+	location.href = 'index.html';
+}, 2000);
 
 function showPopup () {
 	var popup = document.getElementById('popup');
