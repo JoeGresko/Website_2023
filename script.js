@@ -1,5 +1,5 @@
 setTimeout(function (){
-	location.href = 'index.html';
+	location.href = 'website.html';
 }, 2000);
 
 function showPopup () {
