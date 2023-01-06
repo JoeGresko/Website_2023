@@ -1,6 +1,4 @@
-setTimeout(function (){
-	location.href = 'website.html';
-}, 2000);
+
 
 function showPopup () {
 	var popup = document.getElementById('popup');
