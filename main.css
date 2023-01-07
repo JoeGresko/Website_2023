@@ -126,34 +126,37 @@ nav ul li a{
 /*our-story section*/
 
 .images{
-	width:500px;
-	height:665px;
+	display: inline-block;
+	border: 5px black solid;
+	width: 960px;
+	height: 360px;
 	box-sizing: border-box;
-	background-color: grey;
-	float: left;
-	padding: 15px 15px 0 15px;
-	margin-bottom: 0;
-	margin-right: 15px;
-	margin-top: 32px;
+	position: relative;
+	}
+
+.animation {
+	width: 950px;
+	height: 350px;
+	position: absolute;
 }
 
-
-/*mgbottom in fotosklad and padding in images to change the frame*/
-
-.fotosklad{
-	display: block;
-	width: 470px;
-	height: 200px;
-	box-sizing: border-box;
-	margin-bottom: 15px; 
-	padding: 0 5px;
+.state1,
+.state2,
+.state3 {
+	display: none;
 }
+
+.img_state1 .state1{display: block;}
+.img_state2 .state2{display: block;}
+.img_state3 .state3{display: block;}
+
 
 .our-story h3{
 	font-size: 40px;
 	font-weight: 800;
-	margin: 0 auto;
-	padding-left: 590px;
+	margin: 25px 0 40px 0;
+	display: block;
+	text-align: center;
 
 }
 
@@ -163,7 +166,7 @@ nav ul li a{
 	width: 470px;
 	height: 10px;
 	background-color: black;
-	margin: 70px auto;
+	margin: 50px auto;
 }
 
 .WeBelieve{
