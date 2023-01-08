@@ -140,6 +140,12 @@ nav ul li a{
 	position: absolute;
 }
 
+.qwerty{
+	position: absolute;
+	z-index: 10;
+	left: 250px;
+	bottom: 10px;
+}
 .state1,
 .state2,
 .state3 {
