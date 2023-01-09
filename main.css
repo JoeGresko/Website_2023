@@ -129,23 +129,57 @@ nav ul li a{
 	display: inline-block;
 	border: 5px black solid;
 	width: 960px;
-	height: 360px;
+	height: 410px;
 	box-sizing: border-box;
 	position: relative;
 	}
 
 .animation {
 	width: 950px;
-	height: 350px;
+	height: 400px;
 	position: absolute;
 }
 
-.qwerty{
+.owl {
 	position: absolute;
 	z-index: 10;
-	left: 250px;
-	bottom: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	border: 0;
+	cursor: pointer;
 }
+
+.owl1 {
+	bottom: 10px;
+	left: 395px;
+	transition: background-color 200ms;
+}
+
+.owl2 {
+	bottom: 10px;
+	left: 455px;
+	transition: background-color 200ms;
+}
+
+.owl3 {
+	bottom: 10px;
+	left: 515px;
+	transition: background-color 200ms;
+}
+
+.owl1:hover {
+	background-color: #0094ff;
+}
+
+.owl2:hover {
+	background-color: #0094ff;
+}
+
+.owl3:hover {
+	background-color: #0094ff;
+}
+
 .state1,
 .state2,
 .state3 {

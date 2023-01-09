@@ -9,11 +9,8 @@ function hidePopup () {
 }
 
 function change_image_state (image) {
-	if (image == 0) {
-		document.getElementById("img_block").classList.remove('img_state3');
-		document.getElementById("img_block").classList.add('img_state1');
-	}else {
-		document.getElementById("img_block").classList.remove('img_state' + (image - 1));
+		document.getElementById("img_block");
+		img_block.className = '';
+		document.getElementById("img_block").classList.add('images')
 		document.getElementById("img_block").classList.add('img_state' + image);
 	}
-}
