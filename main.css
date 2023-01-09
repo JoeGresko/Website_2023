@@ -70,6 +70,7 @@ nav{
 	box-shadow: 0 5px 4px rgba(	0, 0, 0, .2);
 	position: sticky;
 	top: 0;
+	z-index: 100;
 }
 nav .logo{
 		display: block;
@@ -123,74 +124,30 @@ nav ul li a{
 }
 
 
-/*our-story section*/
-
-.images{
+/*swiper*/
+.container{
 	display: inline-block;
 	border: 5px black solid;
 	width: 960px;
-	height: 410px;
+	height: 500px;
 	box-sizing: border-box;
 	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	}
 
-.animation {
-	width: 950px;
-	height: 400px;
-	position: absolute;
+.swiper {
+	width: 100%;
+	height: 100%;
 }
 
-.owl {
-	position: absolute;
-	z-index: 10;
-	width: 40px;
-	height: 40px;
-	border-radius: 20px;
-	border: 0;
-	cursor: pointer;
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
 }
 
-.owl1 {
-	bottom: 10px;
-	left: 395px;
-	transition: background-color 200ms;
-}
-
-.owl2 {
-	bottom: 10px;
-	left: 455px;
-	transition: background-color 200ms;
-}
-
-.owl3 {
-	bottom: 10px;
-	left: 515px;
-	transition: background-color 200ms;
-}
-
-.owl1:hover {
-	background-color: #0094ff;
-}
-
-.owl2:hover {
-	background-color: #0094ff;
-}
-
-.owl3:hover {
-	background-color: #0094ff;
-}
-
-.state1,
-.state2,
-.state3 {
-	display: none;
-}
-
-.img_state1 .state1{display: block;}
-.img_state2 .state2{display: block;}
-.img_state3 .state3{display: block;}
-
-
+/*our-story section*/
 .our-story h3{
 	font-size: 40px;
 	font-weight: 800;

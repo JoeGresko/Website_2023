@@ -8,9 +8,20 @@ function hidePopup () {
 	popup.classList.remove('show')
 }
 
-function change_image_state (image) {
-		document.getElementById("img_block");
-		img_block.className = '';
-		document.getElementById("img_block").classList.add('images')
-		document.getElementById("img_block").classList.add('img_state' + image);
-	}
+const swiper = new Swiper('.swiper', {
+	autoplay: {
+		delay: 3000,
+		disableOnInteraction: false
+	},
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
