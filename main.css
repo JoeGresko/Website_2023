@@ -147,6 +147,38 @@ nav ul li a{
 	height: 100%;
 }
 
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+	color: white;
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+	width: 100px;
+	height: 500px;
+	padding-top: 450px;
+}
+
+.swiper .swiper-button-next::after {
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.swiper .swiper-button-prev::after {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+
+.swiper .swiper-pagination-bullet-active{
+	background: white;
+}
+
+.swiper .swiper-pagination-bullet{
+	width: 25px;
+	height: 25px;
+	}
+
 /*our-story section*/
 .our-story h3{
 	font-size: 40px;
@@ -224,7 +256,58 @@ a.cta.alt, button.cta.alt{
 
 }
 
+/*footer section*/
+footer {
+	width: 100%;
+	background-color: #333333;
+	height: 70vh;
+	position: relative;
+}
 
+footer .footer-top {
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	height: 35%;
+	
+}
+
+.footer-logo {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+.footer-logo img {
+	width: 400px;
+	height: 40px;
+}
+.column-1 {
+	position: absolute;
+	bottom: 20%;
+	left: 5%;
+}
+
+footer .foot-header {
+	font-weight: 800;
+	font-size: 40px;
+	color: white;
+}
+footer ul{
+	padding-left: 0;
+	list-style: none;
+}
+
+footer ul li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-weight: 500;
+}
 /*popup section*/
 .popup{
 	display: none;
