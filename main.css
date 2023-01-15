@@ -281,16 +281,32 @@ footer .footer-top {
 	width: 400px;
 	height: 40px;
 }
+
+/*Footer column section*/
 .column-1 {
 	position: absolute;
 	bottom: 20%;
 	left: 5%;
 }
 
+.column-2 {
+	position: absolute;
+	bottom: 20%;
+	left: 35%;
+}
+
+.column-3 {
+	position: absolute;
+	bottom: 20%;
+	left: 65%;
+}
+
+
+
 footer .foot-header {
 	font-weight: 800;
-	font-size: 40px;
-	color: white;
+	font-size: 35px;
+	color: #fff;
 }
 footer ul{
 	padding-left: 0;
@@ -298,15 +314,39 @@ footer ul{
 }
 
 footer ul li{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 footer ul li a{
 	text-decoration: none;
-	color: white;
-	font-size: 30px;
+	color: #d4d4d4;
+	font-size: 25px;
 	font-weight: 500;
+	border-bottom: 1px solid transparent;
+	transition: 500ms;
+}
+
+footer ul li a:hover{
+	border-color: white;
+	color: white;
+}
+
+.fot-sep {
+	position: absolute;
+	bottom: 60px;
+	z-index: 10;
+	background-color: rgba(256, 256, 256, 0.1);
+	width: 100%;
+	height: 1px;
+}
+
+.copyright{
+	position: absolute;
+	bottom: 20px;
+	color: white;
+	width: 100%;
+	text-align: center;
 }
 /*popup section*/
 .popup{
@@ -321,6 +361,7 @@ footer ul li a{
 
 .popup.show{
 	display: block;
+	z-index: 1000	;
 }
 .popup .blanket{
 	background-color: rgba(0, 0, 0, .7);
@@ -376,7 +417,7 @@ footer ul li a{
 	width: 	50px;
 	height: 50px;
 	background-color: grey;
-	background: url(Close_button_draft.png) no-repeat center center;
+	background: url(Close_button.png) no-repeat center center;
 	background-size: 50%;
 	position: absolute;	
 	top: 10px;
@@ -422,4 +463,13 @@ footer ul li a{
 	box-sizing: border-box;
 	width: 100%;
 	padding: 15px 20px;
+}
+
+/*popup-2*/
+.popup-2{
+	display: none;
+}
+.popup-2.show{
+	display: block;
+	z-index: 2000;
 }

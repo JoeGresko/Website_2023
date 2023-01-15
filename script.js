@@ -8,6 +8,9 @@ function hidePopup () {
 	popup.classList.remove('show')
 }
 
+function showPopup2 () {
+	document.getElementById("popup-2").classList.add('show');
+}
 const swiper = new Swiper('.swiper', {
 	autoplay: {
 		delay: 3000,
