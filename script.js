@@ -9,8 +9,17 @@ function hidePopup () {
 }
 
 function showPopup2 () {
-	document.getElementById("popup-2").classList.add('show');
+	var popup = document.getElementById('popup');
+	popup.classList.remove('show')
+  	var popup2 = document.getElementById("popup-2");
+  	popup2.classList.add("show")
 }
+
+function hidePopup2 () {
+	var popup2 = document.getElementById('popup-2');
+	popup2.classList.remove('show')
+}
+
 const swiper = new Swiper('.swiper', {
 	autoplay: {
 		delay: 3000,

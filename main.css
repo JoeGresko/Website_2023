@@ -356,13 +356,13 @@ footer ul li a:hover{
 	bottom: 0;
 	right: 0;
 	left: 0;
-	z-index: 2;
 }
 
 .popup.show{
 	display: block;
-	z-index: 1000	;
+	z-index: 1000;
 }
+
 .popup .blanket{
 	background-color: rgba(0, 0, 0, .7);
 	position: absolute;
@@ -393,8 +393,9 @@ footer ul li a:hover{
 
 .popup .cta{
 	margin-top: 40px;
+	padding-top: 30px;
 	width: 270px;
-    height: 80px;
+    height: 60px;
     border: none;
     outline: none;
     background: #2f2f2f;
@@ -466,10 +467,71 @@ footer ul li a:hover{
 }
 
 /*popup-2*/
-.popup-2{
+.popup-2 {
 	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
+
+
 .popup-2.show{
 	display: block;
 	z-index: 2000;
+}
+
+.popup-2 .blanket{
+	background-color: rgba(0, 0, 0, .7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.popup-2 .content {
+	width: 400px;
+	height: auto;
+	background: white;
+	border-radius: 6px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	padding: 0 30px 30px;
+	color: #333;
+}
+
+.popup-2 img {
+	width: 100px;
+	margin-top: -50px;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup-2 h2 {
+	font-size: 38px;
+	font-weight: 700;
+	margin: 30px 0 10px;
+}
+
+.popup-2 p {
+	font-weight: 100;
+}
+
+.popup-2 button {
+	width: 100%;
+	margin-top: 50px;
+	padding: 10px 0;
+	background: #6fd649;
+	color: #fff;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
