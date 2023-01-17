@@ -455,7 +455,7 @@ footer ul li a:hover{
 	margin-left: 10px;
 }
 
-.popup .item input[type="text"]{
+.popup .item .text{
 	display: block;
 	font-size: 30px;
 	margin-bottom: 10px;
@@ -464,6 +464,10 @@ footer ul li a:hover{
 	box-sizing: border-box;
 	width: 100%;
 	padding: 15px 20px;
+}
+
+.popup .item .text.showred {
+	border: 1px solid red;
 }
 
 /*popup-2*/

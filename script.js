@@ -20,6 +20,28 @@ function hidePopup2 () {
 	popup2.classList.remove('show')
 }
 
+function validate_text_box(x) {
+    if (document.getElementById("text" + x).value.trim() == "") {
+        document.getElementById("text" + x).classList.add("showred");
+	}else{
+	document.getElementById("text" + x).classList.remove("showred");
+     }
+  };
+function validate_all_box () {
+	validate_text_box(1);
+	validate_text_box(2);
+	validate_text_box(3);
+	validate_text_box(4);
+}
+
+
+
+
+
+
+
+
+
 const swiper = new Swiper('.swiper', {
 	autoplay: {
 		delay: 3000,
