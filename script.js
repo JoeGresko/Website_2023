@@ -27,12 +27,40 @@ function validate_text_box(x) {
 	document.getElementById("text" + x).classList.remove("showred");
      }
   };
+
 function validate_all_box () {
 	validate_text_box(1);
 	validate_text_box(2);
 	validate_text_box(3);
 	validate_text_box(4);
+	if (document.getElementById("text1").classList.contains("showred") ||
+		document.getElementById("text2").classList.contains("showred") ||
+		document.getElementById("text3").classList.contains("showred") ||
+		document.getElementById("text4").classList.contains("showred")) {
+		validate_text_box(1);
+		validate_text_box(2);
+		validate_text_box(3);
+		validate_text_box(4);
+	}else {
+		showPopup2();
+	}
 }
+
+
+
+
+
+// TELEPHONE-------------------------------------------------------------------------------------------------------------------
+
+
+
+// ----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
 
 
