@@ -1,3 +1,14 @@
+function show_popup_main () {
+	var popupMain = document.getElementById('popup-main');
+	popupMain.classList.add('show')
+}
+
+function hide_popup_main () {
+	var popupMain = document.getElementById('popup-main');
+	popupMain.classList.remove('show')
+}
+
+
 function showPopup () {
 	var popup = document.getElementById('popup');
 	popup.classList.add('show')
