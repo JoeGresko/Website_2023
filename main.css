@@ -1,15 +1,16 @@
 html {
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 body, html {
-	font-family: 'Arial', sans-serif;
+	font-family: 'Exo 2',sans-serif;
 	padding: 0 ;
 	margin: 0;
 	max-width: 100%;
 }
 /*Hero-banner section*/
 h1{
-	font-weight: 800;
+	font-weight: 900;
 	color: white;
 
 }
@@ -32,16 +33,6 @@ p{
 
 }
 
-
-.ctaalt{
-	position: absolute; left: 5vw; bottom: 40vh;
-}
-.wrapper{
-	width: 960px;
-	margin: 0 auto;
-
-}
-
 .Hero-banner{
 	background-color: #007FFF;
 	min-height: 100vh;
@@ -54,6 +45,44 @@ p{
 
 }
 
+/*1a1a1a is black color*/
+a.cta.alt{
+	background-color: #FFD400;
+	position: absolute;
+	top: 375px;
+	left: 75px;
+	color: #1A1A1A;
+	border: 7px solid #1A1A1A; 
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+	font-size: 70px; 
+	border-radius: 10px; 
+	text-align: center; 
+	margin: 0; 
+	height: 150px; 
+	width: 710px; 
+	font-weight: 800;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: 500ms;
+}
+
+a.cta.alt:hover {
+	transform: scale(1.1);
+}
+
+
+.ctaalt{
+	position: absolute; left: 5vw; bottom: 40vh;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+
+
 .soldier_box img {
 	width: 42vw;
 	height: 90vh;
@@ -65,7 +94,7 @@ p{
 }
 /*Navigation bar*/
 nav{
-	height: 95px;
+	height: 100px;
 	background-color: white;
 	box-shadow: 0 5px 4px rgba(	0, 0, 0, .2);
 	position: sticky;
@@ -105,8 +134,7 @@ nav ul li a{
 	font-weight: bold;
 	color: #111111;
 	text-decoration: none;
-	padding: 35px 10px;
-
+	padding-top: 33px;
 }
 /*our-mission section*/
 .our-mission {
@@ -117,6 +145,7 @@ nav ul li a{
 	margin-bottom: 0;
 	line-height: 40px;
 	margin-top: 20px;
+	font-weight: 500;
 }
 
 .our-mission h2{
@@ -189,6 +218,12 @@ nav ul li a{
 
 }
 
+.our-story p {
+	font-weight: 500;
+	text-align: center;
+	font-size: 	20px;
+}
+
 
 
 .separator {
@@ -239,22 +274,7 @@ a.cta, button.cta{
 	color: #1324F8;
 }
 
-/*1a1a1a is black color*/
-a.cta.alt, button.cta.alt{
-	color: #1A1A1A; 
-	background-color: #FFD400;
-	border: 7px solid #1A1A1A;
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-	font-size: 60px;
-	border-radius: 10px;
-	text-align: center;
-	margin: 0;
-	height: 150px;
-	width: 700px;
-	position: absolute;
-	padding: 40px 30px 0 30px
 
-}
 
 /*footer section*/
 footer {
