@@ -370,7 +370,7 @@ footer ul li a:hover{
 }
 /*popup section 	<!-- ------------------------------------------------------------------------------------------------------------------------------ -->*/
 .popup-main{
-	display: none;
+	display: block;
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -410,6 +410,9 @@ footer ul li a:hover{
 .popup-main h3 {
 	font-size: 50px;
 	color: white;
+	position: fixed;
+	z-index: 3;
+
 }
 .box-1 {
 	width: 425px;
@@ -435,10 +438,12 @@ footer ul li a:hover{
 	cursor: pointer;
 	object-fit: fill;
 }
+
 .box-1 h3 {
-	position: relative;
-	z-index: 5;
+	top: 250px;
+	left: 360px;
 }
+
 
 .box-2 {
 	width: 425px;
@@ -450,7 +455,7 @@ footer ul li a:hover{
 	box-sizing: border-box;
 }
 
-.box-2 a{
+.box-2 video {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -458,11 +463,16 @@ footer ul li a:hover{
 	right: 0;
 	width: 100%;
 	height: 100%;
+	z-index: 0;
+	cursor: pointer;
+	object-fit: fill;
 }
 
 .box-2 h3 {
-
+	top: 250px;
+	right: 360px;
 }
+
 
 .box-3 {
 	width: 875px;
@@ -474,7 +484,7 @@ footer ul li a:hover{
 	box-sizing: border-box;
 }
 
-.box-3 a{
+.box-3 video {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -482,13 +492,16 @@ footer ul li a:hover{
 	right: 0;
 	width: 100%;
 	height: 100%;
+	z-index: 0;
+	cursor: pointer;
+	object-fit: fill;
 }
 
 .box-3 h3 {
-	position: absolute;
-	top: 1vh;	
-	left: 18vw;
+	bottom: 90px;
+	left: 600px;
 }
+
 
 /*	<!-- ------------------------------------------------------------------------------------------------------------------------------ -->*/
 .popup{
