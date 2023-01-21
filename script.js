@@ -7,7 +7,10 @@ function hide_popup_main () {
 	var popupMain = document.getElementById('popup-main');
 	popupMain.classList.remove('show')
 }
+//--------VIDEOS-----------------------------------------------------------------------------------------------------------------------------------
 
+
+//--------VIDEOS-----------------------------------------------------------------------------------------------------------------------------------
 
 function showPopup () {
 	var popup = document.getElementById('popup');

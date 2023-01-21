@@ -370,7 +370,7 @@ footer ul li a:hover{
 }
 /*popup section 	<!-- ------------------------------------------------------------------------------------------------------------------------------ -->*/
 .popup-main{
-	display: block;
+	display: none;
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -412,8 +412,9 @@ footer ul li a:hover{
 	color: white;
 	position: fixed;
 	z-index: 3;
-
+	pointer-events: none;
 }
+
 .box-1 {
 	width: 425px;
 	height: 200px;
@@ -424,7 +425,10 @@ footer ul li a:hover{
 	right: 0;
 	bottom: 0;
 	box-sizing: border-box;
+	transition: 2s;
 }
+
+
 
 .box-1 video {
 	position: absolute;
@@ -444,6 +448,25 @@ footer ul li a:hover{
 	left: 360px;
 }
 
+.image_border_1 {
+	background-color: white;
+	width: 50px;
+	height: 40px;
+	position: relative;
+	z-index: 11000;
+	left: 365px;
+	border-radius: 5px;
+}
+
+.image_border_1 img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 50px;
+	height: 40px;
+}
 
 .box-2 {
 	width: 425px;
@@ -473,7 +496,25 @@ footer ul li a:hover{
 	right: 360px;
 }
 
+.image_border_2 {
+	background-color: white;
+	width: 70px;
+	height: 40px;
+	position: relative;
+	z-index: 11000;
+	left: 346px;
+	border-radius: 5px;
+}
 
+.image_border_2 img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 70px;
+	height: 40px;
+}
 .box-3 {
 	width: 875px;
 	height: 200px;
@@ -501,6 +542,51 @@ footer ul li a:hover{
 	bottom: 90px;
 	left: 600px;
 }
+
+.box-3 img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 50px;
+	height: 40px;
+}
+
+.image_border_3 {
+	background-color: white;
+	width: 50px;
+	height: 40px;
+	position: relative;
+	z-index: 11000;
+	border-radius: 5px;
+}
+
+.image_border_3.pic1 {
+	left: 815px;
+}
+
+.image_border_3.pic2 {
+	left: 762px;
+	top: -40px;
+}
+
+.image_border_3.pic3 {
+	left: 709px;
+	top: -80px;
+}
+
+.image_border_3.pic4 {
+	left: 656px;
+	top: -120px;
+}
+
+.image_border_3.pic5 {
+	left: 603px;
+	top: -160px;
+}
+
+
 
 
 /*	<!-- ------------------------------------------------------------------------------------------------------------------------------ -->*/
