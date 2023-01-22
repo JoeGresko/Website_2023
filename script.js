@@ -13,6 +13,8 @@ function hide_popup_main () {
 //--------VIDEOS-----------------------------------------------------------------------------------------------------------------------------------
 
 function showPopup () {
+	var popup_main = document.getElementById('popup-main');
+	popup_main.classList.remove('show')
 	var popup = document.getElementById('popup');
 	popup.classList.add('show')
 }
